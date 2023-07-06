@@ -1,4 +1,4 @@
-# Neurodata Marp Poster Template
+# DARE Marp Poster Template
 
 ## Setting up Marp
 Instructions for using this [Marp](https://marp.app/) template in VSCode:
@@ -44,9 +44,3 @@ size: 36:24
 - The poster can be exported as `pdf`, `jpg`, `png`, and other formats supported by Marp.
 - To export, click the Marp icon in the top right corner of the editor and choose `Export slide deck`. ![](./images/marp-export.png)
  
-
-## Examples 
-
-![](./examples/pedigo-naisys-2022/pedigo-naisys-2022.png)
-
-![](./examples/athey-nebec-2022/nebec.png)
