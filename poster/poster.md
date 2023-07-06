@@ -2,7 +2,7 @@
 marp: true
 theme: poster
 paginate: false
-size: 44:33
+size: 46:33
 ---
 
 <!-- Start header -->
@@ -11,25 +11,27 @@ size: 44:33
 <!-- Image in the upper left -->
 <div>
 
-![headerlogo](../images/hopkins-logo.png)
+<img src="https://www.sydney.edu.au/etc.clientlibs/corporate-commons/clientlibs/foundation/resources/corporate-frontend/assets/img/USydLogo.svg" width="100%" alt="headerlogo">
 
 </div>
 
 <!-- Title and author information -->
 <div>
 
-# Making posters via marp <br> a lesson in markdowning
+# Making posters via marp a lesson in markdowning
 
-## Benjamin D. Pedigo<span class=super>1*</span>, Thomas L. Athey<span class=super>1</span>, Joshua T. Vogelstein<span class=super>1</span>
 
-##### 1 - Johns Hopkins University, $\ast$ - correspondence: ![icon](../../images/email.png) [_<insert-email>@jhu.edu_](mailto:<insert-email>@jhu.edu) ![icon](../../images/github.png) [_@<insert-handle> (Github)_](https://github.com/<insert-handle>) ![icon](../../images/twitter.png) [_@<insert-handle> (Twitter)_](https://twitter.com/<insert-handle>) ![icon](../../images/web.png) [_<insert-website>.io_](https://<insert-website>) 
+## <u>Joshua A. Simmons</u><span class=super>1*</span>
+
+
+##### 1 - Data Analytics for Resources and Environment (DARE), ARC Industrial Transformation Training Centre, University of Sydney <br>![icon](./img/mail.png) [_joshua.simmons@sydney.edu.au_](mailto:joshua.simmons@sydney.edu.au) ![icon](./img/github.png) [_@dare-centre_](https://github.com/dare-centre)
 
 </div>
 
 <!-- Image on the upper right -->
 <div>
 
-![headerlogo](../images/nd_logo.png)
+<img src="https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png" width="100%" alt="headerlogo">
 
 </div>
 
@@ -99,14 +101,14 @@ size: 44:33
 <div class=columns2>
 <div>
 
-![center w:5.5in](./../../images/Figure1-brain-render.png)
+![center w:5.5in](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 
 **Fig 1A:** 3D rendering of a larval *Drosophila* brain connectome [1] comprised of ~3k neurons and ~544k synapses.
 
 </div>
 <div>
 
-![center w:5.1in](./../../../results/figs/show_data/adjacencies.png)
+![center w:5.1in](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 
 **Fig 1B:** Directed, binary adjacency matrix sorted by brain hemisphere. We compare $\color{#66c2a5} L \rightarrow L$ vs. $\color{#fc8d62} R \rightarrow R$ subgraphs.
 
@@ -124,12 +126,12 @@ This is what we need to do for this work
 <div class=columns2>
 <div>
 
-![](../../../results/figs/er_unmatched_test/er_methods.svg)
+![](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 
 </div>
 <div>
 
-![](../../../results/figs/er_unmatched_test/er_density.svg)
+![](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 
 </div>
 </div>
@@ -155,18 +157,18 @@ This is what we need to do for this work
 
 ### Thing we did 2
 
-![center w:10.5in](./../../../results/figs/sbm_unmatched_test/sbm_methods_explain.svg)
+![center w:10.5in](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 **Fig 3A:** Testing under stochastic block model (SBM) compares probabilities of connections between groups (here using cell types [1]).
 
 <div class=columns2>
 <div>
 
-![](../../../results/figs/sbm_unmatched_test/sbm_uncorrected_pvalues.svg)
+![](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 
 </div>
 <div>
 
-![center w:5in](../../../results/figs/sbm_unmatched_test/significant_p_comparison.svg)
+![center w:5in](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 
 </div>
 </div>
@@ -192,12 +194,12 @@ This is what we need to do for this work
 
 <br>
 
-![center w:5in](./../../../results/figs/adjusted_sbm_unmatched_test/adjusted_methods_explain.svg)
+![center w:5in](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 
 </div>
 <div>
 
-![](./../../../results/figs/adjusted_sbm_unmatched_test/sbm_pvalues.svg)
+![](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 
 </div>
 </div>
@@ -256,12 +258,12 @@ This is what we need to do for this work
 <div class="columns2">
 <div>
 
-![](./results/thresholding_tests/../../../../../results/figs/thresholding_tests/thresholding_methods.svg)
+![](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 
 </div>
 <div>
 
-![](../../../results/figs/thresholding_tests/input_threshold_pvalues_legend.svg)
+![](https://darecentre.org.au/wp-content/uploads/2020/05/Dare-logo2.png)
 
 </div>
 </div>
@@ -289,54 +291,12 @@ This is what we need to do for this work
 
 <div class="columns2">
 <div>
+#### Code ![icon](./img/github.png)
 
-#### Code
-
-<div class="columns3-np">
-<div>
-
-<!-- Logo for a package -->
-![left h:1in](./../../images/graspologic_svg.svg)
-
-</div>
-<div>
-
-<!-- Badges for a package -->
-[![h:.4in](https://pepy.tech/badge/graspologic)](https://pepy.tech/project/graspologic) 
-[![h:.4in](https://img.shields.io/github/stars/microsoft/graspologic?style=social)](https://github.com/microsoft/graspologic)
-
-</div>
-<div>
-
-<!-- QR code to a package -->
-![center h:1in](./../../images/graspologic-qr.svg)
-
-</div>
-</div>
-
-<br>
-
-<div class="columns3-np">
-<div>
-
-This work 
-
-</div>
-<div>
-
-<!-- JupyterBook/Docs for a project -->
-[![h:0.4in](https://jupyterbook.org/badge.svg)](http://docs.neurodata.io/bilateral-connectome/)
-
-</div>
-<div>
-
-<!-- QR code to link to repo for a project -->
-![center h:1in](./../../images/bilateral-qr.svg)
-
-</div>
-</div>
+[github.com/dare-centre/llara-soil-moisture](https://github.com/dare-centre/llara-soil-moisture)
 
 #### Acknowledgements
+
 <footer>
 Marta Zlatic's lab, Albert Cardona's lab and all tracers for the amazing dataset and many ideas. NeuroData lab for feedback. Many at Microsoft Research for w/ graspologic.
 </footer>
@@ -345,10 +305,11 @@ Marta Zlatic's lab, Albert Cardona's lab and all tracers for the amazing dataset
 <div>
 
 #### References
+
 <!-- Need these breaks <br> between refs otherwise formatting breaks for some reason -->
 <footer>
-[1] Winding, Pedigo et al. "The complete connectome of an insect brain," In preparation (2022) 
-<br> 
+[1] Winding, Pedigo et al. "The complete connectome of an insect brain," In preparation (2022)
+<br>
 [2] Chung et al. "Statistical connectomics," Ann. Rev. Statistics and its Application (2021) <br>
 [3] Athreya et al. "Statistical inference on random dot product graphs: a survey," JMLR (2017)
 </footer>
@@ -356,7 +317,7 @@ Marta Zlatic's lab, Albert Cardona's lab and all tracers for the amazing dataset
 #### Funding
 
 <footer>
-B.D.P. supported by the NSF GRFP (DGE1746891). J.T.V. supported by NSF CAREER Award (1942963). J.T.V + C.E.P supported by NIH BRAIN Initiative (RF1MH123233). Findings and conclusions expressed are  those of the authors and not necessarily those of the funders.
+We thank the Australian Government for supporting this research through the Australian Research Council’s Industrial Transformation Training Centre in Data Analytics for Resources and Environments (DARE) (project IC190100031).
 </footer>
 
 </div>

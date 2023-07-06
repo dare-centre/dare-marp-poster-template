@@ -25,6 +25,14 @@ Instructions for using this [Marp](https://marp.app/) template in VSCode:
 }
  ```
 
+You can also stick to the template (but this is sneaky and also may break your poster if the template changes).
+
+Ctrl+cmd+P -> Preferences: Open Settings (UI) | search "marp theme" and add item to "Markdown › Marp: Themes" 
+
+```
+https://raw.githubusercontent.com/dare-centre/dare-marp-poster-template/main/themes/poster.css
+```
+
 ## Creating the markdown to generate your poster
 - Add the following header to your poster file (`.md`):
 
